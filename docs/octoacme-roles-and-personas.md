@@ -79,3 +79,52 @@ Project Managers coordinate delivery activities, manage schedules, risks, and co
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
 
+---
+
+## QA Engineers
+
+### Role Summary
+QA Engineers validate that deliverables meet acceptance criteria and quality standards. They design and execute test strategies, identify defects, and ensure the team maintains a high-quality bar before release.
+
+### Responsibilities
+- Design and maintain test plans, test cases, and automated test suites
+- Validate acceptance criteria for features and bugs
+- Perform exploratory, regression, and end-to-end testing
+- Participate in sprint planning to assess testability of backlog items
+- Coordinate with developers on defect triage and resolution
+- Provide a quality sign-off before each release
+
+### Goals
+- Prevent defect escape to production
+- Reduce time spent on manual regression through automation
+- Ensure product behavior matches stakeholder expectations
+
+### Typical Communication
+- Daily standups with the delivery team
+- Test result reports and defect logs
+- Release readiness sign-off communication
+
+---
+
+## Stakeholders
+
+### Role Summary
+Stakeholders are individuals or groups with an interest in the project outcome. They provide business context, approve key decisions, and receive regular project communications.
+
+### Responsibilities
+- Provide business requirements, constraints, and priorities
+- Review and approve the Project One-pager and milestone plans
+- Attend stakeholder briefings and provide timely feedback
+- Escalate business concerns through the defined escalation path
+- Sign off on go/no-go decisions at key decision gates
+
+### Goals
+- Ensure the project delivers expected business value
+- Stay informed without needing to be involved in day-to-day delivery
+- Provide clear decisions and approvals to keep the project moving
+
+### Typical Communication
+- Milestone-based briefings
+- Weekly status update emails from the PM
+- Go/no-go and escalation decisions as needed
+

@@ -29,12 +29,27 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Use dashboards for key signals (errors, latency, usage)
 
 ## Blocker Escalation
-- Level 1: Team-level triage in daily standup
-- Level 2: PM escalates to Product Lead and dependent teams
-- Level 3: Sponsor-level escalation for business-impacting issues
+- Level 1: Team-level triage in daily standup (resolve within 1 business day)
+- Level 2: PM escalates to Product Lead and dependent teams (unresolved after 1 business day; target resolution within 2 business days from escalation)
+- Level 3: Sponsor-level escalation for business-impacting or unresolved blockers (target 24-hour executive response)
+
+**Blocker Resolution Template:**
+
+| Field | Value |
+|-------|-------|
+| Blocker ID | BLK-### |
+| Description | What is blocked and why |
+| Impact | Which deliverables or milestones are at risk |
+| Raised by | Name / date |
+| Escalation level | 1 / 2 / 3 |
+| Owner | Who is resolving it |
+| Target resolution date | YYYY-MM-DD |
+| Resolution notes | How it was resolved |
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] Blocker escalation path communicated to team
+- [ ] Dashboard or metrics tracking set up for project success metrics
